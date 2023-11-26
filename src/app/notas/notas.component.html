@@ -1,0 +1,8 @@
+<div>
+    <h2>Notas</h2>
+    <label for="nota1">Nota 1:</label>
+    <input type="number" [(ngModel)]="nota1" name="nota1" />
+    <!-- Repite el patrón para nota2, nota3, y nota4 -->
+    <button (click)="calcularPromedio()">Calcular Promedio</button>
+    <p>El promedio es: {{ promedio }}</p>
+  </div>
