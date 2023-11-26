@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RickandmortyComponent } from './rickandmorty.component';
+import { RickAndMortyComponent } from './rickandmorty.component';
 
 describe('RickandmortyComponent', () => {
-  let component: RickandmortyComponent;
-  let fixture: ComponentFixture<RickandmortyComponent>;
+  let component: RickAndMortyComponent;
+  let fixture: ComponentFixture<RickAndMortyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RickandmortyComponent]
+      imports: [RickAndMortyComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(RickandmortyComponent);
+    fixture = TestBed.createComponent(RickAndMortyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
