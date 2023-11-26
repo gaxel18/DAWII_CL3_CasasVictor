@@ -1,0 +1,9 @@
+<div>
+    <h2>Estacionamiento</h2>
+    <label for="horas">Horas:</label>
+    <input type="number" [(ngModel)]="horas" name="horas" />
+    <label for="minutos">Minutos:</label>
+    <input type="number" [(ngModel)]="minutos" name="minutos" />
+    <button (click)="calcularCosto()">Calcular Pago</button>
+    <p>El cliente debe pagar: ${{ costo }}</p>
+  </div>
